@@ -1,0 +1,10 @@
+VM_NAME=MyLinuxVM
+STORAGE_ACCOUNT_NAME=mysibistorageaccount
+RESOURCE_GROUP_NAME=RG2
+CONTAINER_NAME=mycontainer
+LOCATION=eastus
+FILE_PATH=create_resource.sh
+
+CREATE_SCRIPT=create_resource.sh
+UPLOAD_SCRIPT=upload.sh
+
