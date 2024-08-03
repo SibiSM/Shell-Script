@@ -33,7 +33,7 @@ az group create --name $RESOURCE_GROUP_NAME --location $LOCATION
 
 # Create VM
 echo "Creating VM: $VM_NAME"
-az vm create --resource-group $RESOURCE_GROUP_NAME --name $VM_NAME --image UbuntuLTS --admin-username azureuser --generate-ssh-keys --location $LOCATION
+az vm create --resource-group $RESOURCE_GROUP_NAME --name $VM_NAME --image Ubuntu2204 --admin-username azureuser --generate-ssh-keys --location $LOCATION
 
 # Create Storage Account
 echo "Creating Storage Account: $STORAGE_ACCOUNT_NAME"
