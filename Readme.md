@@ -1,5 +1,5 @@
-Project  - Shell Scripts for Azure Automation
-Overview
+# Project  - Shell Scripts for Azure Automation
+# Overview
 This repository contains shell scripts for automating Azure resource management tasks. The scripts include:
 
 create_resource.sh: Creates Azure resources.
@@ -8,7 +8,7 @@ remove_resources.sh: Deletes Azure resources.
 Prerequisites
 Before running the scripts, you need to set up your environment:
 
-1. Install Git
+# 1. Install Git
 For Ubuntu/Linux:
 
 # Update the package index
@@ -20,7 +20,7 @@ sudo apt install git
 # Verify the installation
 git --version
 
-2. Install Azure CLI
+# 2. Install Azure CLI
 Follow these steps to install the Azure CLI on Ubuntu/Linux:
 
 Update repository information and install prerequisites:
@@ -42,16 +42,16 @@ sudo apt install -y azure-cli
 Verify the installation:
 az --version
 
-3. Clone the Repository
+# 3. Clone the Repository
 Clone this repository to your local machine:
 git clone https://github.com/SibiSM/Shell-Script.git
 cd Shell-Script
 
-4. Azure Authentication
+# 4. Azure Authentication
 Login to your Azure account:
 az login
 
-Script Usage
+# Script Usage
 1. Create Resources
 Run the create_resource.sh script with the configuration file:
 ./create_resource.sh /path/to/your/configuration.txt
@@ -74,6 +74,6 @@ project7.log: Contains logs for the execution of the project7.sh script.
 remove_resources.log: Contains logs for the execution of the remove_resources.sh script.
 
 
-Notes
+# Notes
 Ensure that the paths specified in the crontab and script commands are correct and point to the appropriate files on your system.
 Verify that the configuration file (configuration.txt) contains the correct values for your Azure setup.
